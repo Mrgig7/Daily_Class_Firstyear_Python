@@ -144,6 +144,7 @@ print(round(0.5) - round(-0.5))
 print(round(75.8))
 
 # Q.14
+abc_x = 10
 print(abc_x)
 
 # Q.15
