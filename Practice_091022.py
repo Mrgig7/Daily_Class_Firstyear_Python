@@ -42,7 +42,7 @@ print(z)
 
 print(bool('Nice'))
 print(bool('77'))
-print(bool(['Nitesh','Joseph'])
+print(bool(['Nitesh','Joseph']))
 
 #False
 
