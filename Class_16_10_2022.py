@@ -1,8 +1,5 @@
 # Is not operator ( returns true if both variables are not the same object)
 
-from argparse import ONE_OR_MORE
-from platform import java_ver
-
 
 a = [10, 20]
 b = [10, 20]
@@ -33,11 +30,30 @@ print(20 not in a)
 
 # they are used to compare binary numbers
 
-# & => AND => sets each bits are 1, it sets each bit to ONE_OR_MORE
+# & => AND => sets each bits are 1, it sets each bit to ONE (OR) MORE
 
 # | => OR => if one of the two bits or any bits is 1, it sets to 1
 
 # ^ => XDR => if only one of the two bits is 1, it sets each bit to 1
 
-# - => NOT => inverts all the bits ( compliment operator, it returns one's compliment of the number)
+# ~ => NOT => inverts all the bits ( compliment operator, it returns one's compliment of the number)
 # A = -(A+1) => Complement of number
+
+# << => Zero fill left shift => The binary number is appeded with 0's at the end
+
+# >> => Right shift => The right side of the bits are removed
+
+x=10
+y=7
+
+print(x & y)
+
+print(x | y)
+
+print(x ^ y)
+
+print(~(x & y))
+
+print(x << y)
+
+print(x >> y)
