@@ -88,4 +88,3 @@ print(c)
 print(a is c) # it returns true if both variables are the same object pointing to the same memory
 
 print(b is c)
-
