@@ -91,7 +91,9 @@ print(a)
 print(b)
 print(c)
 
-print(a is c) # it returns true if both variables are the same object pointing to the same memory
+print(a is c) # it returns true if both variables are the same object pointing to the same memory (a is the same object as c)
 
 print(b is c)
+
+print(a == b) # it returns to be true as a is equal to b
 
