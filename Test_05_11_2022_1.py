@@ -170,6 +170,12 @@ Answer = 21
 # 20 Table
 # Option 2 10 Chair
 #     10 Table
+
+Answer = 10 Chair
+        10 Table
+        20 Chair
+        20 Table
+         
 # 12. What is the output of the following range() function
 # for num in range(2,-5,-1):
 #     print(num, end=", ")
@@ -192,6 +198,7 @@ Answer = 21
 #  None of the above, this is an infinite loop
 #  100
 
+Answer = 100
 
 
 
