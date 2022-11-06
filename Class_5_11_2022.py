@@ -36,9 +36,9 @@ printFirstName('Peter', '30')
 
 #function either do something or return something
 # create a function that prints sum of two numbers
-# 
-def printSum(num1, num2):
-    print(num1 + num2) 
+# # 
+# def printSum(num1, num2):
+#     print(num1 + num2) 
 
 def printSum(num1, num2):
     return num1 + num2
