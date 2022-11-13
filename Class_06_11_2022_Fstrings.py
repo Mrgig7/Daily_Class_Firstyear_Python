@@ -62,4 +62,4 @@ text = "I scored {:%} percentage in the test"
 
 text = "I scored {:.0%} percentage in the test"
 
-print(text.format(0.25))
+print(text.format(0.25)) 
