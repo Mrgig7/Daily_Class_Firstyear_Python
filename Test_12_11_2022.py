@@ -145,8 +145,6 @@ showStudent("Emma", 26)
 
 # Python Program to Print All Odd Numbers in a Range
 
-# Python program to print Even Numbers in given range
-
 start = int(input("Enter the start of range:"))
 end = int(input("Enter the end of range:"))
 
@@ -176,6 +174,19 @@ else:
 	for num in range(start+1, end + 1, 2):
 		print(num, end=" ")
 
+# Python program to print Even Numbers in given range
+
+start = int(input("Enter the start of range: "))
+end = int(input("Enter the end of range: "))
+ 
+# iterating each number in list
+for num in range(start, end + 1):
+ 
+    # checking condition
+    if num % 2 == 0:
+        print(num, end=" ")
+
+        
 # Python Program to Check Whether a Given Number is Even or Odd using Recursion
 
 def check(n):
