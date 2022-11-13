@@ -57,12 +57,12 @@
 
 
 # default parameter value
-def myFunc(age = '40'):
-    print('My age is ' + age)
+# def myFunc(age = '40'):
+#     print('My age is ' + age)
     
-myFunc('10')   
-myFunc('20')   
-myFunc()   
+# myFunc('10')   
+# myFunc('20')   
+# myFunc()   
 
 # default parameter value
 # def myFunc(age = '40'):
