@@ -35,7 +35,7 @@ for k in range(n, 0, -1):
 
         print(m, end=' ')
 
-    print('\r')
+    print(" ")
 
 # Pattern #3: Half Pyramid Pattern of Numbers
 # Pattern:
@@ -73,7 +73,7 @@ for k in range(n, 0, -1):
 
         print(digit, end=' ')
 
-    print("\r")
+    print(" ")
 
 # Pattern #5: Inverted Pyramid of the Same Digit
 # Pattern:
@@ -94,7 +94,7 @@ for k in range(n, 0, -1):
 
         print(digit, end=' ')
 
-    print("\r")
+    print( )
 
 
 # Pattern #6: Reverse Pyramid of Numbers
@@ -113,7 +113,7 @@ for r in range(1, n):
 
         print(m, end=' ')
 
-    print("")
+    print( )
 
 # Pattern #7: Inverted Half Pyramid Number Pattern
 # Pattern:
@@ -131,7 +131,7 @@ for k in range(n, 0, -1):
 
         print(m, end=' ')
 
-    print("\r")
+    print( )
 
 # Pattern #8: Pyramid of Natural Numbers Less Than 10
 # Pattern:
